@@ -102,7 +102,7 @@ section{
     gap: 1.5rem;
 }
 .product-box:hover{
-    padding: 5px;
+    
     border: 1px solid var(--text-color); 
 
 
@@ -126,14 +126,13 @@ margin-bottom:0.5rem ;
 }
 .add-cart{
 
-  bottom: 0;
-  right: 0;
     background-color: var(--text-color);
     display: flex;
     color: var(--bg-color);
     padding: 10px;
     cursor:pointer;
 margin-left: 170px;
+
 }
 
 .cart-box{
@@ -211,14 +210,24 @@ padding: 10px;
 #close-cart{
 position: absolute;
 top :1rem ;
-right: 0.8rem ;
+right: 3rem ;
 font-size: 2rem;
 color: var(--text-color);
 cursor: pointer;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+#close-cart{
+    position: absolute;
+    right: 4rem;
+}
 
 
+
+  }
 
 
 
