@@ -103,8 +103,8 @@ section{
 }
 .product-box:hover{
     padding: 5px;
-    border: 1px solid var(--text-color);
-    transition: 0.4s;
+    border: 1px solid var(--text-color); 
+
 
 
 }
@@ -125,7 +125,7 @@ margin-bottom:0.5rem ;
     font-weight: 500;
 }
 .add-cart{
-  position: relative;
+
   bottom: 0;
   right: 0;
     background-color: var(--text-color);
@@ -148,8 +148,6 @@ gap: 1rem;
     width: 100px;
 object-fit: contain;
 padding: 10px;
-
-
 
 }
 
