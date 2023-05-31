@@ -147,7 +147,3 @@ total = Math.round(total * 100 ) / 100
 }
 
 
-
-
-
-
